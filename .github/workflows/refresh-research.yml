@@ -1,0 +1,65 @@
+name: Refresh research mirror
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout public mirror
+        uses: actions/checkout@v4
+
+      - name: Fetch Railway research data
+        run: |
+          curl --fail --silent --show-error \
+            --retry 3 \
+            --connect-timeout 15 \
+            "https://soothing-warmth-production-16d7.up.railway.app/research-summary" \
+            -o summary.json
+
+          curl --fail --silent --show-error \
+            --retry 3 \
+            --connect-timeout 15 \
+            "https://soothing-warmth-production-16d7.up.railway.app/research-history?limit=10" \
+            -o history.json
+
+      - name: Validate JSON
+        run: |
+          jq -e . summary.json > /dev/null
+          jq -e . history.json > /dev/null
+
+      - name: Build public snapshot
+        run: |
+          jq -n \
+            --arg mirrored_at "$(date -u +"%Y-%m-%dT%H:%M:%SZ")" \
+            --slurpfile summary summary.json \
+            --slurpfile history history.json \
+            '{
+              status: "ok",
+              mirrored_at: $mirrored_at,
+              source: "railway",
+              summary: $summary[0],
+              history: $history[0]
+            }' > research-latest.json
+
+      - name: Commit refreshed snapshot
+        run: |
+          git config user.name "research-mirror-bot"
+          git config user.email "research-mirror-bot@users.noreply.github.com"
+
+          git add research-latest.json
+
+          if git diff --cached --quiet; then
+            echo "No change to commit"
+            exit 0
+          fi
+
+          git commit -m "Refresh research mirror"
+          git push
