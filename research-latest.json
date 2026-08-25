@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "mirrored_at": "2026-08-25T07:10:01Z",
+  "mirrored_at": "2026-08-25T08:00:07Z",
   "source": "railway",
   "summary": {
     "schema_version": "1.0",
@@ -646,6 +646,17 @@
     ],
     "research_runs": [
       {
+        "id": 15,
+        "started_ts": 1787644800.1016831,
+        "completed_ts": null,
+        "status": "running",
+        "new_candidates": 0,
+        "ohlcv_rows_before": 21931,
+        "ohlcv_rows_after": 0,
+        "cu_estimate": 0,
+        "note": null
+      },
+      {
         "id": 14,
         "started_ts": 1787641200.1013594,
         "completed_ts": 1787641214.1920505,
@@ -742,17 +753,6 @@
         "ohlcv_rows_before": 10158,
         "ohlcv_rows_after": 10558,
         "cu_estimate": 135,
-        "note": "autopilot cycle complete"
-      },
-      {
-        "id": 5,
-        "started_ts": 1787558400.0991967,
-        "completed_ts": 1787558414.1715097,
-        "status": "complete",
-        "new_candidates": 4,
-        "ohlcv_rows_before": 8819,
-        "ohlcv_rows_after": 10158,
-        "cu_estimate": 315,
         "note": "autopilot cycle complete"
       }
     ],
