@@ -1,62 +1,84 @@
 {
   "status": "ok",
-  "mirrored_at": "2026-08-30T12:55:33Z",
+  "mirrored_at": "2026-08-30T17:31:25Z",
   "source": "railway",
   "summary": {
     "schema_version": "1.0",
-    "generated_at": 1788084012.9377663,
+    "generated_at": 1788102012.18601,
     "model_version": "v0.12.1",
     "paper_research_only": true,
     "data_health": {
-      "ohlcv_1s_rows": 84598,
-      "sampled_events": 224,
-      "completed_runs": 66
+      "ohlcv_1s_rows": 87849,
+      "sampled_events": 231,
+      "completed_runs": 68
     },
     "replay": {
-      "tokens_analyzed": 199,
-      "median_rows_per_token": 455,
-      "mean_return_5s": 3.5286810039774497,
-      "mean_return_15s": 29.599122719796718,
-      "mean_return_30s": 29.878133482564074,
-      "mean_return_60s": 30.333420662748626,
-      "mean_return_120s": 30.358805349881507,
-      "mean_return_180s": 32.52854195286434,
-      "mean_return_300s": 29.056301579236496,
-      "mean_mfe_5m": 42.081640843247015,
-      "mean_mae_5m": -6.7383343741099635,
-      "p_up5_before_down5": 0.6722689075630253,
-      "p_up10_before_down5": 0.5108695652173914,
-      "p_up20_before_down10": 0.3877551020408163,
-      "reversal_after_30s_rate": 0.5025125628140703,
-      "score_vs_60s_spearman": 0.05144705221229978,
-      "score_vs_5m_spearman": 0.04509781641633796
+      "tokens_analyzed": 206,
+      "median_rows_per_token": 455.5,
+      "mean_return_5s": 3.426883723324465,
+      "mean_return_15s": 28.609057640733226,
+      "mean_return_30s": 28.892045853983678,
+      "mean_return_60s": 29.36195033938048,
+      "mean_return_120s": 29.428770346898357,
+      "mean_return_180s": 31.456264448387863,
+      "mean_return_300s": 28.240915057420487,
+      "mean_mfe_5m": 40.93176981355439,
+      "mean_mae_5m": -6.611555741576524,
+      "p_up5_before_down5": 0.6774193548387096,
+      "p_up10_before_down5": 0.5052631578947369,
+      "p_up20_before_down10": 0.38,
+      "reversal_after_30s_rate": 0.5,
+      "score_vs_60s_spearman": 0.06581744229778105,
+      "score_vs_5m_spearman": 0.05026396066359293
     },
     "challengers": {
-      "events": 197,
-      "reclaim_setups": 126,
-      "reclaim_setup_rate": 0.6395939086294417,
-      "immediate_mean_3m_return": 32.85337575179064,
-      "pullback_reclaim_mean_3m_return": 4.916226472764495,
-      "immediate_median_3m_return": 1.7834296130078586,
+      "events": 204,
+      "reclaim_setups": 128,
+      "reclaim_setup_rate": 0.6274509803921569,
+      "immediate_mean_3m_return": 31.75943946495418,
+      "pullback_reclaim_mean_3m_return": 4.887132818389148,
+      "immediate_median_3m_return": 1.8048246226923137,
       "pullback_reclaim_median_3m_return": 1.3470387643693793,
-      "immediate_mean_mfe": 38.70934540514504,
-      "pullback_reclaim_mean_mfe": 10.341029892109924,
-      "immediate_mean_mae": -5.799767906657939,
-      "pullback_reclaim_mean_mae": -5.437565398130672,
+      "immediate_mean_mfe": 37.57723575207617,
+      "pullback_reclaim_mean_mfe": 10.25891438106112,
+      "immediate_mean_mae": -5.7034769343052405,
+      "pullback_reclaim_mean_mae": -5.434072197597974,
       "median_reclaim_delay_s": 31.0,
       "interpretation": "descriptive challenger test only; no execution/slippage claim"
     },
     "recent_runs": [
       {
-        "id": 67,
-        "started_ts": 1788084000.1031601,
+        "id": 69,
+        "started_ts": 1788102000.4130368,
         "completed_ts": null,
         "status": "running",
         "new_candidates": 0,
-        "ohlcv_rows_before": 83051,
+        "ohlcv_rows_before": 86353,
         "ohlcv_rows_after": 0,
         "cu_estimate": 0,
         "note": null
+      },
+      {
+        "id": 68,
+        "started_ts": 1788096600.7175856,
+        "completed_ts": 1788096614.2785826,
+        "status": "complete",
+        "new_candidates": 4,
+        "ohlcv_rows_before": 84600,
+        "ohlcv_rows_after": 86353,
+        "cu_estimate": 315,
+        "note": "autopilot cycle complete"
+      },
+      {
+        "id": 67,
+        "started_ts": 1788084000.1031601,
+        "completed_ts": 1788084012.9550977,
+        "status": "complete",
+        "new_candidates": 3,
+        "ohlcv_rows_before": 83051,
+        "ohlcv_rows_after": 84600,
+        "cu_estimate": 255,
+        "note": "autopilot cycle complete"
       },
       {
         "id": 66,
@@ -134,33 +156,11 @@
         "ohlcv_rows_after": 76728,
         "cu_estimate": 315,
         "note": "autopilot cycle complete"
-      },
-      {
-        "id": 59,
-        "started_ts": 1788015600.2958267,
-        "completed_ts": 1788015612.154341,
-        "status": "complete",
-        "new_candidates": 2,
-        "ohlcv_rows_before": 74392,
-        "ohlcv_rows_after": 75226,
-        "cu_estimate": 195,
-        "note": "autopilot cycle complete"
-      },
-      {
-        "id": 58,
-        "started_ts": 1788010200.1087232,
-        "completed_ts": 1788010214.3162978,
-        "status": "complete",
-        "new_candidates": 4,
-        "ohlcv_rows_before": 73489,
-        "ohlcv_rows_after": 74392,
-        "cu_estimate": 315,
-        "note": "autopilot cycle complete"
       }
     ],
     "budget_state": {
-      "cu_estimate:2026-08": "18465",
-      "last_success_ts": "1788080413.6058514"
+      "cu_estimate:2026-08": "19035",
+      "last_success_ts": "1788096614.282418"
     },
     "notes": [
       "Results are descriptive paper research.",
@@ -171,8 +171,102 @@
   "history": {
     "schema_version": "1.0",
     "paper_research_only": true,
-    "snapshot_count": 73,
+    "snapshot_count": 75,
     "snapshots": [
+      {
+        "id": 75,
+        "created_ts": 1788102012.18601,
+        "source": "scheduled_cycle",
+        "model_version": "v0.12.1",
+        "ohlcv_rows": 87849,
+        "sampled_events": 231,
+        "completed_runs": 68,
+        "replay": {
+          "tokens_analyzed": 206,
+          "median_rows_per_token": 455.5,
+          "mean_return_5s": 3.426883723324465,
+          "mean_return_15s": 28.609057640733226,
+          "mean_return_30s": 28.892045853983678,
+          "mean_return_60s": 29.36195033938048,
+          "mean_return_120s": 29.428770346898357,
+          "mean_return_180s": 31.456264448387863,
+          "mean_return_300s": 28.240915057420487,
+          "mean_mfe_5m": 40.93176981355439,
+          "mean_mae_5m": -6.611555741576524,
+          "p_up5_before_down5": 0.6774193548387096,
+          "p_up10_before_down5": 0.5052631578947369,
+          "p_up20_before_down10": 0.38,
+          "reversal_after_30s_rate": 0.5,
+          "score_vs_60s_spearman": 0.06581744229778105,
+          "score_vs_5m_spearman": 0.05026396066359293
+        },
+        "challengers": {
+          "events": 204,
+          "reclaim_setups": 128,
+          "reclaim_setup_rate": 0.6274509803921569,
+          "immediate_mean_3m_return": 31.75943946495418,
+          "pullback_reclaim_mean_3m_return": 4.887132818389148,
+          "immediate_median_3m_return": 1.8048246226923137,
+          "pullback_reclaim_median_3m_return": 1.3470387643693793,
+          "immediate_mean_mfe": 37.57723575207617,
+          "pullback_reclaim_mean_mfe": 10.25891438106112,
+          "immediate_mean_mae": -5.7034769343052405,
+          "pullback_reclaim_mean_mae": -5.434072197597974,
+          "median_reclaim_delay_s": 31.0,
+          "interpretation": "descriptive challenger test only; no execution/slippage claim"
+        },
+        "budget": {
+          "cu_estimate:2026-08": "19035",
+          "last_success_ts": "1788096614.282418"
+        }
+      },
+      {
+        "id": 74,
+        "created_ts": 1788096614.2572887,
+        "source": "scheduled_cycle",
+        "model_version": "v0.12.1",
+        "ohlcv_rows": 86351,
+        "sampled_events": 228,
+        "completed_runs": 67,
+        "replay": {
+          "tokens_analyzed": 203,
+          "median_rows_per_token": 455,
+          "mean_return_5s": 3.46269389866866,
+          "mean_return_15s": 29.015924816378348,
+          "mean_return_30s": 29.29535434956567,
+          "mean_return_60s": 29.76024545532933,
+          "mean_return_120s": 29.808341186892424,
+          "mean_return_180s": 31.86473447376492,
+          "mean_return_300s": 28.558285364933187,
+          "mean_mfe_5m": 41.419948711396145,
+          "mean_mae_5m": -6.708552746628785,
+          "p_up5_before_down5": 0.6721311475409836,
+          "p_up10_before_down5": 0.5,
+          "p_up20_before_down10": 0.38,
+          "reversal_after_30s_rate": 0.5073891625615764,
+          "score_vs_60s_spearman": 0.05769159373109578,
+          "score_vs_5m_spearman": 0.04220787493057077
+        },
+        "challengers": {
+          "events": 201,
+          "reclaim_setups": 128,
+          "reclaim_setup_rate": 0.6368159203980099,
+          "immediate_mean_3m_return": 32.17649886894045,
+          "pullback_reclaim_mean_3m_return": 4.887132818389148,
+          "immediate_median_3m_return": 1.7544316764683154,
+          "pullback_reclaim_median_3m_return": 1.3470387643693793,
+          "immediate_mean_mfe": 38.05243598556354,
+          "pullback_reclaim_mean_mfe": 10.25891438106112,
+          "immediate_mean_mae": -5.787885668652479,
+          "pullback_reclaim_mean_mae": -5.434072197597974,
+          "median_reclaim_delay_s": 31.0,
+          "interpretation": "descriptive challenger test only; no execution/slippage claim"
+        },
+        "budget": {
+          "cu_estimate:2026-08": "18780",
+          "last_success_ts": "1788084012.9586763"
+        }
+      },
       {
         "id": 73,
         "created_ts": 1788084012.9377663,
@@ -548,103 +642,31 @@
           "cu_estimate:2026-08": "16620",
           "last_success_ts": "1788015612.1650665"
         }
-      },
-      {
-        "id": 65,
-        "created_ts": 1788015612.1191094,
-        "source": "scheduled_cycle",
-        "model_version": "v0.12.1",
-        "ohlcv_rows": 75224,
-        "sampled_events": 198,
-        "completed_runs": 58,
-        "replay": {
-          "tokens_analyzed": 176,
-          "median_rows_per_token": 450.0,
-          "mean_return_5s": 4.0423660214144475,
-          "mean_return_15s": 33.50435449837878,
-          "mean_return_30s": 33.78789263887043,
-          "mean_return_60s": 34.25765097214398,
-          "mean_return_120s": 34.08156928514924,
-          "mean_return_180s": 36.50259364931347,
-          "mean_return_300s": 32.40599630130493,
-          "mean_mfe_5m": 46.62534290652076,
-          "mean_mae_5m": -7.149729290891081,
-          "p_up5_before_down5": 0.6513761467889908,
-          "p_up10_before_down5": 0.5,
-          "p_up20_before_down10": 0.37777777777777777,
-          "reversal_after_30s_rate": 0.4943181818181818,
-          "score_vs_60s_spearman": 0.04660994178235557,
-          "score_vs_5m_spearman": 0.027433945364979843
-        },
-        "challengers": {
-          "events": 175,
-          "reclaim_setups": 109,
-          "reclaim_setup_rate": 0.6228571428571429,
-          "immediate_mean_3m_return": 36.711179898738116,
-          "pullback_reclaim_mean_3m_return": 5.542997334807685,
-          "immediate_median_3m_return": 1.620560182085895,
-          "pullback_reclaim_median_3m_return": 1.4287858645475326,
-          "immediate_mean_mfe": 42.93367486679677,
-          "pullback_reclaim_mean_mfe": 11.398978068210885,
-          "immediate_mean_mae": -6.158475418464203,
-          "pullback_reclaim_mean_mae": -5.737472793463031,
-          "median_reclaim_delay_s": 32.0,
-          "interpretation": "descriptive challenger test only; no execution/slippage claim"
-        },
-        "budget": {
-          "cu_estimate:2026-08": "16305",
-          "last_success_ts": "1788010214.3219705"
-        }
-      },
-      {
-        "id": 64,
-        "created_ts": 1788010214.2749677,
-        "source": "scheduled_cycle",
-        "model_version": "v0.12.1",
-        "ohlcv_rows": 74390,
-        "sampled_events": 196,
-        "completed_runs": 57,
-        "replay": {
-          "tokens_analyzed": 174,
-          "median_rows_per_token": 450.0,
-          "mean_return_5s": 4.066364465802846,
-          "mean_return_15s": 33.872311070006205,
-          "mean_return_30s": 34.21008270359235,
-          "mean_return_60s": 34.65957508643675,
-          "mean_return_120s": 34.43033735580737,
-          "mean_return_180s": 36.889566326263605,
-          "mean_return_300s": 32.69036883411602,
-          "mean_mfe_5m": 47.06548465105792,
-          "mean_mae_5m": -7.184095568651492,
-          "p_up5_before_down5": 0.6542056074766355,
-          "p_up10_before_down5": 0.5,
-          "p_up20_before_down10": 0.37777777777777777,
-          "reversal_after_30s_rate": 0.4942528735632184,
-          "score_vs_60s_spearman": 0.027140281183510948,
-          "score_vs_5m_spearman": 0.005418785431857267
-        },
-        "challengers": {
-          "events": 173,
-          "reclaim_setups": 108,
-          "reclaim_setup_rate": 0.6242774566473989,
-          "immediate_mean_3m_return": 37.10280081369865,
-          "pullback_reclaim_mean_3m_return": 5.5416857866540274,
-          "immediate_median_3m_return": 1.620560182085895,
-          "pullback_reclaim_median_3m_return": 1.3229688386661387,
-          "immediate_mean_mfe": 43.338009460605505,
-          "pullback_reclaim_mean_mfe": 11.402841725883473,
-          "immediate_mean_mae": -6.1815807628888155,
-          "pullback_reclaim_mean_mae": -5.767066534966784,
-          "median_reclaim_delay_s": 31.5,
-          "interpretation": "descriptive challenger test only; no execution/slippage claim"
-        },
-        "budget": {
-          "cu_estimate:2026-08": "16110",
-          "last_success_ts": "1787997613.8060012"
-        }
       }
     ],
     "research_runs": [
+      {
+        "id": 69,
+        "started_ts": 1788102000.4130368,
+        "completed_ts": 1788102012.2197309,
+        "status": "complete",
+        "new_candidates": 3,
+        "ohlcv_rows_before": 86353,
+        "ohlcv_rows_after": 87851,
+        "cu_estimate": 255,
+        "note": "autopilot cycle complete"
+      },
+      {
+        "id": 68,
+        "started_ts": 1788096600.7175856,
+        "completed_ts": 1788096614.2785826,
+        "status": "complete",
+        "new_candidates": 4,
+        "ohlcv_rows_before": 84600,
+        "ohlcv_rows_after": 86353,
+        "cu_estimate": 315,
+        "note": "autopilot cycle complete"
+      },
       {
         "id": 67,
         "started_ts": 1788084000.1031601,
@@ -732,31 +754,58 @@
         "ohlcv_rows_after": 76728,
         "cu_estimate": 315,
         "note": "autopilot cycle complete"
-      },
-      {
-        "id": 59,
-        "started_ts": 1788015600.2958267,
-        "completed_ts": 1788015612.154341,
-        "status": "complete",
-        "new_candidates": 2,
-        "ohlcv_rows_before": 74392,
-        "ohlcv_rows_after": 75226,
-        "cu_estimate": 195,
-        "note": "autopilot cycle complete"
-      },
-      {
-        "id": 58,
-        "started_ts": 1788010200.1087232,
-        "completed_ts": 1788010214.3162978,
-        "status": "complete",
-        "new_candidates": 4,
-        "ohlcv_rows_before": 73489,
-        "ohlcv_rows_after": 74392,
-        "cu_estimate": 315,
-        "note": "autopilot cycle complete"
       }
     ],
     "sampled_events": [
+      {
+        "token_mint": "9sLdj6Jba5BFuTpdZrrYPsbBDrRY7kwpw7C3T5MMvXsA",
+        "discovered_ts": 1788102000.0,
+        "discovery_score": 90.0,
+        "symbol": "ROCKSTAR",
+        "source": "birdeye"
+      },
+      {
+        "token_mint": "GivKaRzej5fRt4CqQVCPpSNV19R8JuzuoRg1WUxhR63P",
+        "discovered_ts": 1788102000.0,
+        "discovery_score": 90.0,
+        "symbol": "ZEC",
+        "source": "birdeye"
+      },
+      {
+        "token_mint": "3W44PzpzNjwsJ77QhgPHyWw9ykK2CokojDhm8nqYVkgv",
+        "discovered_ts": 1788102000.0,
+        "discovery_score": 90.0,
+        "symbol": "牛来",
+        "source": "birdeye"
+      },
+      {
+        "token_mint": "4p9gDXv5vM2nLFU2oG5ZUy5kqGA8AEuMMWTEFifcRzmo",
+        "discovered_ts": 1788096601.0,
+        "discovery_score": 90.0,
+        "symbol": "孙宇晨",
+        "source": "birdeye"
+      },
+      {
+        "token_mint": "5treiWmwTHPWMMUnCWgPKn5dNXRa71qVkMByU9PhAtmH",
+        "discovered_ts": 1788096601.0,
+        "discovery_score": 90.0,
+        "symbol": "AMA",
+        "source": "birdeye"
+      },
+      {
+        "token_mint": "HDcwy1Wk52qJvtuENVgpZHzs47nofF1aH1oGfzGS9j8C",
+        "discovered_ts": 1788096601.0,
+        "discovery_score": 90.0,
+        "symbol": "CYBERLEEK",
+        "source": "birdeye"
+      },
+      {
+        "token_mint": "6Y2tViQXrNovLHNoeZREbojsoMi5KVLLULoY3ZVGmsAj",
+        "discovered_ts": 1788096601.0,
+        "discovery_score": 90.0,
+        "symbol": "COT",
+        "source": "birdeye"
+      },
       {
         "token_mint": "Fx2ZTVHQTHH4r6uUJMsFiymjY82gBNmKKVGBuskfvYz2",
         "discovered_ts": 1788084000.0,
@@ -776,55 +825,6 @@
         "discovered_ts": 1788084000.0,
         "discovery_score": 89.94,
         "symbol": "牛来",
-        "source": "birdeye"
-      },
-      {
-        "token_mint": "E42LNqci9WcZUUNPxANKAUjiDicSppu7ivnUmzpjDLPq",
-        "discovered_ts": 1788080400.0,
-        "discovery_score": 90.0,
-        "symbol": "BTR",
-        "source": "birdeye"
-      },
-      {
-        "token_mint": "8prmzpvh2DAi5EtZx4Ro3MgmYAzdYDi52Uyy65su72vs",
-        "discovered_ts": 1788080400.0,
-        "discovery_score": 90.0,
-        "symbol": "XIAOMI",
-        "source": "birdeye"
-      },
-      {
-        "token_mint": "21ENK41UC4QQVEMzv3L9xwm1PQGS2iuLvJuAAhEZiBqK",
-        "discovered_ts": 1788080400.0,
-        "discovery_score": 88.52,
-        "symbol": "UMIA",
-        "source": "birdeye"
-      },
-      {
-        "token_mint": "6bSYMCffDnFyXD8JmkxqupNnAdJjG5Qcskc2eeGaX9bX",
-        "discovered_ts": 1788076800.0,
-        "discovery_score": 90.0,
-        "symbol": "GTA 6 COIN",
-        "source": "birdeye"
-      },
-      {
-        "token_mint": "82jtz62qU8hWKZuNtLy9XTvDjapSgymBGMYnQPTBvTg2",
-        "discovered_ts": 1788076800.0,
-        "discovery_score": 89.7,
-        "symbol": "HOOD",
-        "source": "birdeye"
-      },
-      {
-        "token_mint": "CQWgNZeAvK13wRZfRX6XwGZZC2otjSEUiMXXRJ1H9j5M",
-        "discovered_ts": 1788073200.0,
-        "discovery_score": 90.0,
-        "symbol": "CYBERLEEK",
-        "source": "birdeye"
-      },
-      {
-        "token_mint": "A2ZLNNcc1XoYT6Y95gMZ5ZrHUyzbZZGGRLY7471rBrKw",
-        "discovered_ts": 1788073200.0,
-        "discovery_score": 89.53,
-        "symbol": "Pepsi",
         "source": "birdeye"
       }
     ]
