@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "mirrored_at": "2026-09-07T04:45:52Z",
+  "mirrored_at": "2026-09-07T10:21:25Z",
   "source": "railway",
   "summary": {
     "schema_version": "1.0",
@@ -657,6 +657,61 @@
     ],
     "research_runs": [
       {
+        "id": 147,
+        "started_ts": 1788775200.1071708,
+        "completed_ts": 1788775201.0529518,
+        "status": "error",
+        "new_candidates": 0,
+        "ohlcv_rows_before": 166055,
+        "ohlcv_rows_after": 0,
+        "cu_estimate": 0,
+        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
+      },
+      {
+        "id": 146,
+        "started_ts": 1788771600.103295,
+        "completed_ts": 1788771601.3058019,
+        "status": "error",
+        "new_candidates": 0,
+        "ohlcv_rows_before": 166055,
+        "ohlcv_rows_after": 0,
+        "cu_estimate": 0,
+        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
+      },
+      {
+        "id": 145,
+        "started_ts": 1788768000.0951326,
+        "completed_ts": 1788768002.1954854,
+        "status": "error",
+        "new_candidates": 0,
+        "ohlcv_rows_before": 166055,
+        "ohlcv_rows_after": 0,
+        "cu_estimate": 0,
+        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
+      },
+      {
+        "id": 144,
+        "started_ts": 1788764400.098208,
+        "completed_ts": 1788764401.0535817,
+        "status": "error",
+        "new_candidates": 0,
+        "ohlcv_rows_before": 166055,
+        "ohlcv_rows_after": 0,
+        "cu_estimate": 0,
+        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
+      },
+      {
+        "id": 143,
+        "started_ts": 1788760800.103719,
+        "completed_ts": 1788760801.1583736,
+        "status": "error",
+        "new_candidates": 0,
+        "ohlcv_rows_before": 166055,
+        "ohlcv_rows_after": 0,
+        "cu_estimate": 0,
+        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
+      },
+      {
         "id": 142,
         "started_ts": 1788750000.0884223,
         "completed_ts": 1788750001.1117818,
@@ -710,61 +765,6 @@
         "ohlcv_rows_after": 0,
         "cu_estimate": 0,
         "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
-      },
-      {
-        "id": 137,
-        "started_ts": 1788688800.1043286,
-        "completed_ts": 1788688801.2303782,
-        "status": "error",
-        "new_candidates": 0,
-        "ohlcv_rows_before": 166055,
-        "ohlcv_rows_after": 0,
-        "cu_estimate": 0,
-        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
-      },
-      {
-        "id": 136,
-        "started_ts": 1788685200.1055846,
-        "completed_ts": 1788685201.078672,
-        "status": "error",
-        "new_candidates": 0,
-        "ohlcv_rows_before": 166055,
-        "ohlcv_rows_after": 0,
-        "cu_estimate": 0,
-        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
-      },
-      {
-        "id": 135,
-        "started_ts": 1788681600.0959787,
-        "completed_ts": 1788681603.0674345,
-        "status": "error",
-        "new_candidates": 0,
-        "ohlcv_rows_before": 166055,
-        "ohlcv_rows_after": 0,
-        "cu_estimate": 0,
-        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
-      },
-      {
-        "id": 134,
-        "started_ts": 1788678000.103335,
-        "completed_ts": 1788678009.8276477,
-        "status": "complete",
-        "new_candidates": 2,
-        "ohlcv_rows_before": 166055,
-        "ohlcv_rows_after": 166055,
-        "cu_estimate": 195,
-        "note": "autopilot cycle complete"
-      },
-      {
-        "id": 133,
-        "started_ts": 1788674400.0643778,
-        "completed_ts": 1788674413.1327307,
-        "status": "complete",
-        "new_candidates": 4,
-        "ohlcv_rows_before": 164597,
-        "ohlcv_rows_after": 166055,
-        "cu_estimate": 315,
-        "note": "autopilot cycle complete"
       }
     ],
     "sampled_events": [
