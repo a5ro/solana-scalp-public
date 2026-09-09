@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "mirrored_at": "2026-09-08T21:52:42Z",
+  "mirrored_at": "2026-09-09T00:17:01Z",
   "source": "railway",
   "summary": {
     "schema_version": "1.0",
@@ -657,6 +657,17 @@
     ],
     "research_runs": [
       {
+        "id": 161,
+        "started_ts": 1788912001.5438902,
+        "completed_ts": 1788912003.3883836,
+        "status": "error",
+        "new_candidates": 0,
+        "ohlcv_rows_before": 166055,
+        "ohlcv_rows_after": 0,
+        "cu_estimate": 0,
+        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
+      },
+      {
         "id": 160,
         "started_ts": 1788890400.106453,
         "completed_ts": 1788890401.1726842,
@@ -748,17 +759,6 @@
         "id": 152,
         "started_ts": 1788836401.4564893,
         "completed_ts": 1788836402.6560605,
-        "status": "error",
-        "new_candidates": 0,
-        "ohlcv_rows_before": 166055,
-        "ohlcv_rows_after": 0,
-        "cu_estimate": 0,
-        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
-      },
-      {
-        "id": 151,
-        "started_ts": 1788825601.0212114,
-        "completed_ts": 1788825602.0095181,
         "status": "error",
         "new_candidates": 0,
         "ohlcv_rows_before": 166055,
