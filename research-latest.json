@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "mirrored_at": "2026-09-18T05:57:15Z",
+  "mirrored_at": "2026-09-18T11:19:13Z",
   "source": "railway",
   "summary": {
     "schema_version": "1.0",
@@ -657,6 +657,61 @@
     ],
     "research_runs": [
       {
+        "id": 257,
+        "started_ts": 1789725600.7391636,
+        "completed_ts": 1789725601.7854424,
+        "status": "error",
+        "new_candidates": 0,
+        "ohlcv_rows_before": 166055,
+        "ohlcv_rows_after": 0,
+        "cu_estimate": 0,
+        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
+      },
+      {
+        "id": 256,
+        "started_ts": 1789722000.1048656,
+        "completed_ts": 1789722001.2381415,
+        "status": "error",
+        "new_candidates": 0,
+        "ohlcv_rows_before": 166055,
+        "ohlcv_rows_after": 0,
+        "cu_estimate": 0,
+        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
+      },
+      {
+        "id": 255,
+        "started_ts": 1789718400.102284,
+        "completed_ts": 1789718401.074905,
+        "status": "error",
+        "new_candidates": 0,
+        "ohlcv_rows_before": 166055,
+        "ohlcv_rows_after": 0,
+        "cu_estimate": 0,
+        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
+      },
+      {
+        "id": 254,
+        "started_ts": 1789714800.1037385,
+        "completed_ts": 1789714803.1370113,
+        "status": "error",
+        "new_candidates": 0,
+        "ohlcv_rows_before": 166055,
+        "ohlcv_rows_after": 0,
+        "cu_estimate": 0,
+        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
+      },
+      {
+        "id": 253,
+        "started_ts": 1789711200.8185196,
+        "completed_ts": 1789711202.17659,
+        "status": "error",
+        "new_candidates": 0,
+        "ohlcv_rows_before": 166055,
+        "ohlcv_rows_after": 0,
+        "cu_estimate": 0,
+        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
+      },
+      {
         "id": 252,
         "started_ts": 1789700400.103542,
         "completed_ts": 1789700401.2786307,
@@ -704,61 +759,6 @@
         "id": 248,
         "started_ts": 1789651800.1049466,
         "completed_ts": 1789651801.084455,
-        "status": "error",
-        "new_candidates": 0,
-        "ohlcv_rows_before": 166055,
-        "ohlcv_rows_after": 0,
-        "cu_estimate": 0,
-        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
-      },
-      {
-        "id": 247,
-        "started_ts": 1789639200.102711,
-        "completed_ts": 1789639201.1299167,
-        "status": "error",
-        "new_candidates": 0,
-        "ohlcv_rows_before": 166055,
-        "ohlcv_rows_after": 0,
-        "cu_estimate": 0,
-        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
-      },
-      {
-        "id": 246,
-        "started_ts": 1789635600.1034663,
-        "completed_ts": 1789635601.2045126,
-        "status": "error",
-        "new_candidates": 0,
-        "ohlcv_rows_before": 166055,
-        "ohlcv_rows_after": 0,
-        "cu_estimate": 0,
-        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
-      },
-      {
-        "id": 245,
-        "started_ts": 1789632000.1044612,
-        "completed_ts": 1789632001.1880364,
-        "status": "error",
-        "new_candidates": 0,
-        "ohlcv_rows_before": 166055,
-        "ohlcv_rows_after": 0,
-        "cu_estimate": 0,
-        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
-      },
-      {
-        "id": 244,
-        "started_ts": 1789628400.1027434,
-        "completed_ts": 1789628401.0526526,
-        "status": "error",
-        "new_candidates": 0,
-        "ohlcv_rows_before": 166055,
-        "ohlcv_rows_after": 0,
-        "cu_estimate": 0,
-        "note": "Command failed (1): /usr/local/bin/python discover_watchlist.py"
-      },
-      {
-        "id": 243,
-        "started_ts": 1789624800.1046753,
-        "completed_ts": 1789624801.2118948,
         "status": "error",
         "new_candidates": 0,
         "ohlcv_rows_before": 166055,
